@@ -1,1 +1,2 @@
-# netsec-crs
+# Network Security course materials
+
