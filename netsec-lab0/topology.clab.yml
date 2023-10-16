@@ -1,0 +1,32 @@
+name: netsec-lab0
+topology:
+  nodes:
+    r1:
+      kind: vr-veos
+      image: vrnetlab/vr-veos:4.25.10M
+    csw1:
+      kind: vr-veos
+      image: vrnetlab/vr-veos:4.25.10M
+    csw2:
+      kind: vr-veos
+      image: vrnetlab/vr-veos:4.25.10M
+    kal1:
+      kind: linux
+      image: kalilinux/kali-rolling
+    kal2:
+      kind: linux
+      image: kalilinux/kali-rolling
+    kal3:
+      kind: linux
+      image: kalilinux/kali-rolling
+    kal4:
+      kind: linux
+      image: kalilinux/kali-rolling
+  links:
+    - endpoints: ['r1:eth1', 'kal1:eth1']
+    - endpoints: ['r1:eth2', 'csw1:eth5']
+    - endpoints: ['csw1:eth3', 'csw2:eth3']
+    - endpoints: ['csw1:eth4', 'kal2:eth1']
+    - endpoints: ['csw2:eth4', 'kal2:eth2']
+    - endpoints: ['csw2:eth5', 'kal3:eth1']
+    - endpoints: ['csw2:eth6', 'kal4:eth1']
