@@ -3,5 +3,9 @@
 ## netsec-casestudy
 Some case studies to go further.
 
-## netsect-lab
+## netsec-crs
+Courses outlines
+
+## netsec-lab
 Courses' labs
+
