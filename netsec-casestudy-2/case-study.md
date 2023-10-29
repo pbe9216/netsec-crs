@@ -2,7 +2,7 @@
 
 ## Objectives
 
-The goal of this project is to use the knowledge acquired in the network security fundamentals module and explore more advanced topics. In this project you'll need to deep dive into a specific technology. While making you think about the overall design, you'll also get into some intricacies to have a working prototype.
+The goal of this project is to use the knowledge acquired in the network security fundamentals module and explore more advanced topics. In this project you'll need to deep dive into a specific technology. While making you think about the overall design, you'll also get into some intricacies to have a working prototype. In this project student dig in honeypots.
 
 ## Description
 
