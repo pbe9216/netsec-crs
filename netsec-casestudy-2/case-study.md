@@ -29,7 +29,7 @@ Below is the list of mandatory points to tackle in this exercise, but any other 
 A report should be produced detailing 
 - the honeypot solutions landscape,
 - the placement of the honeypot(s) in the architecture,
-- which solution has been choses,
+- which solution has been chosen,
 - how the solution will be setup (low level implementation guide),
 - how the solution operates using sample tests
 
