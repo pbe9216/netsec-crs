@@ -11,6 +11,7 @@
 - Management interfaces
 - Control plane protections / policing
 - External controllers
+- Bastion/jump servers
 
 ## Associated labs
 
