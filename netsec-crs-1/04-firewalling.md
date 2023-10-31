@@ -11,7 +11,7 @@
 - Logging and monitoring (matches)
 - high-availability 
 - administration tools (managers, UIs, APIs)
-- Troubleshooting tools
+- Troubleshooting and tools (order of operations, routing, zones)
 - NGFW
 
 ## Associated labs
