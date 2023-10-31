@@ -9,6 +9,7 @@
 - Configure the second port as tagged/trunk mode with VLAN 30 extend over it
 - Extend VLAN 30 down to SW3
 - Configure host ports (access mode): PC1 should be in VLAN 10, PC2 in VLAN 20 and PC3 in VLAN 30
+- Configure host to have a route for 10.1.1.1/32 pointing to their gateways
 - Configure a VRF called red on SW2, with a loopback interface inside (ip: 10.1.1.1/32)
 - Add a second .1q subinterface towards the firewall (10.200.0.2/31)
 - Create default routes in each VRF (red and blue) pointing to the firewall
