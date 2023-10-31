@@ -1,5 +1,6 @@
 ## Networks basics
 - Network devices, hardware, software/NOS,
+- Control plane / data plane
 - ARP
 - switching, MAC addresses, MAC tables,
 - IP routing, default gateways,
