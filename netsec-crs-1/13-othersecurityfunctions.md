@@ -15,6 +15,7 @@
 - PAM (privileged access management)
 - Management bastions
 - Honeypots
+- DDoS protection
 
 ## Associated labs
 
