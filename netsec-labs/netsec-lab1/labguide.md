@@ -1,4 +1,4 @@
-## Network isolation (30 minutes)
+## Network isolation (45 minutes)
 
 - Configure VLAN 10 and VLAN 20 on SW1 and SW2
 - Create a VRF called blue on SW2
