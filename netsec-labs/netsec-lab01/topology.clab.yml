@@ -9,7 +9,7 @@ topology:
       image: vrnetlab/vr-veos:4.25.10M
     sw3:
       kind: linux
-      image: parrotsec/security:latest
+      image: vrnetlab/vr-veos:4.25.10M
     pc1:
       kind: linux
       image: parrotsec/security:latest
