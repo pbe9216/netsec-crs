@@ -1,17 +1,19 @@
 ## Network isolation (45 minutes)
 
-- Configure VLAN 10 and VLAN 20 on SW1 and SW2
+- Configure VLAN 10 and VLAN 20 on SW1 and SW2, configure a trunk between SW1-SW2
 - Create a VRF called blue on SW2
 - SW2 should be the routing point, configure a gateway on SW2 (SVI), it should be attached to VRF blue
   - VLAN 10 gw: 192.168.11.254 255.255.252.0
   - VLAN 20 gw: 192.168.12.30 255.255.255.224
-- Configure a routed port towards the firewall, using .1q subinterface (10.200.0.0/31)
+- Configure a routed port towards the firewall, using .1q subinterface (10.200.0.0/31) in VRF blue
 - Configure the second port as tagged/trunk mode with VLAN 30 extend over it
 - Extend VLAN 30 down to SW3
 - Configure host ports (access mode): PC1 should be in VLAN 10, PC2 in VLAN 20 and PC3 in VLAN 30
+- Configure firewall interface in VLAN30
 - Configure host to have a route for 10.1.1.1/32 pointing to their gateways
+  - VLAN 30 subnet: 192.168.30.0/24, gw 192.168.30.254/24
 - Configure a VRF called red on SW2, with a loopback interface inside (ip: 10.1.1.1/32)
-- Add a second .1q subinterface towards the firewall (10.200.0.2/31)
+- Add a second .1q subinterface towards the firewall (10.200.0.2/31) in VRF red
 - Create default routes in each VRF (red and blue) pointing to the firewall
 - show vlans
 - show mac addresses learned
