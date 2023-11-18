@@ -20,4 +20,4 @@
 - is PC1 able to ping PC2? or PC3?
 - show arp resolutions on the gateway
 - show routing tables
-- scan the subnets using nmap
+- scan the subnets using nmap from PC1, PC2, PC3
