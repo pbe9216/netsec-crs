@@ -21,7 +21,7 @@ topology:
       image: parrotsec/security:latest
     fw:
       kind: linux
-      image: parrotsec/security:latest
+      image: csrx:20.2R1.10
   links:
     - endpoints: ['sw1:eth1', 'pc1:eth1']
     - endpoints: ['sw1:eth2', 'pc2:eth1']
