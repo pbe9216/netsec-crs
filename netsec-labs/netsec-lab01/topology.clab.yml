@@ -8,7 +8,7 @@ topology:
       kind: vr-veos
       image: vrnetlab/vr-veos:4.25.10M
     sw3:
-      kind: linux
+      kind: vr-veos
       image: vrnetlab/vr-veos:4.25.10M
     pc1:
       kind: linux
