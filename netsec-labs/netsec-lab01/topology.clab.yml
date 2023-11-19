@@ -28,6 +28,8 @@ topology:
     - endpoints: ['sw1:eth3', 'sw2:eth3']
     - endpoints: ['sw2:eth1', 'fw:eth1']
     - endpoints: ['sw2:eth2', 'fw:eth2']
+    - endpoints: ['sw2:eth6', 'fw:eth3']
+    - endpoints: ['sw2:eth7', 'fw:eth4']
     - endpoints: ['sw2:eth4', 'sw3:eth1']
     - endpoints: ['sw2:eth5', 'sw3:eth2']
     - endpoints: ['sw3:eth6', 'pc3:eth1']
