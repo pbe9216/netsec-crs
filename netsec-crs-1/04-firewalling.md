@@ -1,6 +1,6 @@
 ## Firewalling
 
-- Types of firewalls (FW, proxy fw, application fw,...)
+- Types of firewalls (FW, application fw,...)
 - Stateful and stateless filtering
 - Access Control List (IP, MAC)
 - Layer 2 / Layer 3 firewalls
