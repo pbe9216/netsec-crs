@@ -9,7 +9,7 @@ Same topology as in lab 1, here we will configure the stateful firewall.
 - Configure IPs on each interfaces
 - Configure the gateway for VLAN 30
 - Create a rule that allows ICMP from any to any
-- Create a rune that allows TCP 22 from VLAN 20 to 10.1.1.1/32
+- Create a rule that allows TCP 22 from VLAN 20 to 10.1.1.1/32
 - Observe traffic flow using firewall tools
 - Create a UDP listener with netcast on PC2
 - Create a run to allow PC3 to PC2 UDP traffic on the port fixed in the netcat command
