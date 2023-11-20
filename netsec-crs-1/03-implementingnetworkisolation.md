@@ -5,7 +5,7 @@
 - Air-gapped machines,
 - Physical security, 
 - Logical devices
-- VLANs, PVLANs, protected ports,
+- VLANs, PVLANs,
 - VRFs and L3VPNs
 - Routing/gateways on firewalls
 
