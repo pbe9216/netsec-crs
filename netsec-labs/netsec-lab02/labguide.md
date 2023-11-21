@@ -1,6 +1,6 @@
 ## Firewalling (45 min)
 
-Same topology as in lab 1, here we will configure the stateful firewall.
+Same topology as in lab 1, here we will configure the stateful firewall.  
 You need to perform lab 1 to continue on this one, it reuses the same configuration.
 
 - Each interface should be put in a zone
