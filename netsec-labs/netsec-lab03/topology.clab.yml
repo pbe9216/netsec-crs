@@ -2,8 +2,8 @@ name: netsec-lab3
 topology:
   nodes:
     r1:
-      kind: vr-veos
-      image: vrnetlab/vr-veos:4.25.10M
+      kind: linux
+      image: vyos:1.5-191123
     csw1:
       kind: vr-veos
       image: vrnetlab/vr-veos:4.25.10M
@@ -20,8 +20,8 @@ topology:
       kind: linux
       image: parrotsec/security:latest
     dhcpa:
-      kind: vr-veos
-      image: vrnetlab/vr-veos:4.25.10M
+      kind: linux
+      image: vyos:1.5-191123
   links:
     - endpoints: ['r1:eth1', 'csw1:eth1']
     - endpoints: ['pc1:eth1', 'csw1:eth2']
