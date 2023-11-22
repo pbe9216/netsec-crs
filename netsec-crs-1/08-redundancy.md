@@ -12,5 +12,5 @@
 
 ## Associated labs
 
-- netsec-lab
+- netsec-lab06
 
