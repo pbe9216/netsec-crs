@@ -12,8 +12,7 @@
 - NAC, 802.1x introduction
 - Layer 2 encryption (MACSEC)
 - Best practices, reducing attack surface
-- A word about wireless networks (outside of the scope this course)
-  
+
 ## Associated labs
 
 - netsec-lab3
