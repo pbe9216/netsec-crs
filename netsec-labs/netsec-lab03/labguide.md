@@ -9,16 +9,7 @@
 - What happens when a switch MAC table is full?
 - Implement a security to prevent MAC flooding
 
-### Spanning tree
-
-
 ### Rogue DHCP
-
-
-### ARP spoofing 
-
-
-### ARP, generating gratuitous ARP
 
 
 ### Neighbor discovery
