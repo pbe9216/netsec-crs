@@ -10,6 +10,13 @@
 - Implement a security to prevent MAC flooding
 
 ### Rogue DHCP
-
+- Configure R1 interface eth1
+- Configure DHCP server
+- Try to run a real DHCP request
+- Perform a DHCP starvation attack (yersinia)
+- Observe effect and switch
+- Observe effect on router
 
 ### Neighbor discovery
+- Look for neighboring information
+- What can you find out?
