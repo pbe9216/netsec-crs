@@ -14,5 +14,4 @@
 - VPN interception
 
 ## Associated labs
-
-- netsec-lab
+- netsec-lab05
