@@ -15,4 +15,4 @@
 
 ## Associated labs
 
-- netsec-lab06
+- netsec-lab07
