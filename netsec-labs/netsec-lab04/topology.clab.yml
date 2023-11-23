@@ -1,0 +1,28 @@
+name: netsec-lab4
+topology:
+  nodes:
+    r1:
+      kind: vr-veos
+      image: vrnetlab/vr-veos:4.25.10M
+    r2:
+      kind: vr-veos
+      image: vrnetlab/vr-veos:4.25.10M
+    r3:
+      kind: vr-veos
+      image: vrnetlab/vr-veos:4.25.10M
+    pc1:
+      kind: linux
+      image: parrotsec/security:latest
+    pc2:
+      kind: linux
+      image: parrotsec/security:latest
+    pc3:
+      kind: linux
+      image: parrotsec/security:latest
+  links:
+    - endpoints: ['r1:eth1', 'r2:eth1']
+    - endpoints: ['r1:eth2', 'r3:eth1']
+    - endpoints: ['r2:eth2', 'r3:eth2']
+    - endpoints: ['pc1:eth1', 'r1:eth3']
+    - endpoints: ['pc2:eth1', 'r2:eth3']
+    - endpoints: ['pc3:eth1', 'r3:eth3']
