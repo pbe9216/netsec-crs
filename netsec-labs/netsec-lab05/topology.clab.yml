@@ -1,3 +1,4 @@
+name: netsec-lab5
 topology:
   nodes:
     vpn1:
