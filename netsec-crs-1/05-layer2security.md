@@ -4,8 +4,8 @@
 - CAM table, timers, unicast flooding
 - port security
 - DHCP snooping, rogue DHCPs, DHCP starvation
-- layer 2 loops, *STP, edge-port/portfast, storm-control, udld/ba...
-- Spanning Tree Protocol and protections, MLAG
+- Layer 2 loops, *STP, edge-port/portfast, storm-control
+- Spanning Tree Protocol and protections
 - VLANs, trunking, VTP, edge trunks, voice VLANs,
 - Neighbor discovery protocols (LLDP,CDP)
 - First hop redundancy protocols
