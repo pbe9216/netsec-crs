@@ -9,7 +9,7 @@
 - What happens when a switch MAC table is full?
 - Implement a security to prevent MAC flooding
 
-### Rogue DHCP
+### Rogue DHCP server
 - Configure R1 interface eth1
 - Configure DHCP server
 - Try to run a real DHCP request
