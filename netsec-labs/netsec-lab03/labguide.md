@@ -14,8 +14,8 @@
 - Configure DHCP server
 - Try to run a real DHCP request
 - Perform a DHCP starvation attack (yersinia)
-- Observe effect and switch
-- Observe effect on router
+- Observe effect on switch
+- Observe effect on router (which is the dhcp server)
 
 ### Neighbor discovery
 - Look for neighboring information
