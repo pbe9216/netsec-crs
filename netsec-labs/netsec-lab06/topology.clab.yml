@@ -1,0 +1,33 @@
+name: netsec-lab6
+topology:
+  nodes:
+    fw1:
+      kind: linux
+      image: csrx:20.2R1.10
+    fw2:
+      kind: linux
+      image: csrx:20.2R1.10
+    sw1:
+      kind: vr-veos
+      image: vrnetlab/vr-veos:4.25.10M
+    sw2:
+      kind: vr-veos
+      image: vrnetlab/vr-veos:4.25.10M
+    sw3:
+      kind: vr-veos
+      image: vrnetlab/vr-veos:4.25.10M
+    pc1:
+      kind: linux
+      image: parrotsec/security:latest
+    pc2:
+      kind: linux
+      image: parrotsec/security:latest
+    pc3:
+      kind: linux
+      image: parrotsec/security:latest
+  links:
+    - endpoints: ['csw1:eth1', 'csw2:eth1']
+    - endpoints: ['pc1:eth1', 'csw1:eth3']
+    - endpoints: ['pc2:eth1', 'csw2:eth3']
+    - endpoints: ['pc3:eth1', 'csw3:eth3']
+    - endpoints: [':eth2', 'csw2:eth2']
