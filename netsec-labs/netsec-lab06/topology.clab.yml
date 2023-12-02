@@ -33,4 +33,4 @@ topology:
     - endpoints: ['fw1:eth2', 'csw1:eth2']
     - endpoints: ['fw2:eth2', 'csw2:eth2']
     - endpoints: ['fw1:eth1', 'csw3:eth1']
-    - endpoints: ['fw2:eth1', 'csw3:eth1']
+    - endpoints: ['fw2:eth1', 'csw3:eth2']
