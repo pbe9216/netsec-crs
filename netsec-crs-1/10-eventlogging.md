@@ -10,4 +10,4 @@
 
 ## Associated labs
 
-- netsec-lab
+- netsec-lab08
