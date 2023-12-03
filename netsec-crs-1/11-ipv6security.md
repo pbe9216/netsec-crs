@@ -14,4 +14,4 @@
 
 ## Associated labs
 
-- netsec-11
+- netsec-lab09
