@@ -1,0 +1,11 @@
+name: netsec-lab7
+topology:
+  nodes:
+    sw1:
+      kind: vr-veos
+      image: vrnetlab/vr-veos:4.25.10M
+    pc1:
+      kind: linux
+      image: parrotsec/security:latest
+  links:
+    - endpoints: ['sw1:eth1', 'pc1:eth1']
