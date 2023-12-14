@@ -9,7 +9,6 @@
 - Transition mechanisms in a word
 - Traffic filtering
 - NAT
-- Local area networks, precedence, 
 
 ## Associated labs
 
