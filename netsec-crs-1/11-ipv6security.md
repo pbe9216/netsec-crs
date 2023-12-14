@@ -4,8 +4,7 @@
 - IPv6 address types and scopes
 - IPv6 header and extension headers
 - DNS and DHCPv6
-- ICMPv6, RA-guard, countermeasures
-- NDP, NDP cache poisonning
+- ICMPv6, NDP, NDP cache poisonning, RA-guard, countermeasures
 - Network scanning?
 - Transition mechanisms in a word
 - Traffic filtering
